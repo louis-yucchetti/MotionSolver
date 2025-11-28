@@ -6,18 +6,18 @@ from scipy import signal
 
 ###############################################################################################################################
 # Significant Wave Height
-Hs       = 0.0   #m
+Hs       = 3.0   #m
 # Peak Period 
-Tp       = 14.    #s
+Tp       = 10.0    #s
 # Peak enhancement factor 
-gamma    =  2.
+gamma    =  3.3
 # Number of wave components in the spectrum
 nfreq    = 200
 # Sea State duration
-Duration = 1000.0 #s
+Duration = 3600.0 #s
 
 # Wind speed 
-Ws=0. #12.
+Ws=12.0
 # Turbine Diameter
 Diam=178.
 # Turbine height above sea level
@@ -30,7 +30,7 @@ Surge0=0.
 # Initial Heave
 Heave0=0.
 # Initial Pitch
-Pitch0=10.
+Pitch0=0.
 
 # Time step
 dt= 0.1
@@ -200,5 +200,3 @@ plt.show()
 
 ###############################################
 ###############################################
-
-
